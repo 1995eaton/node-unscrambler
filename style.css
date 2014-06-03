@@ -1,0 +1,172 @@
+#info-box  {
+  transition: border-color .3s ease-in-out, right 0.25s ease-out;
+  -moz-transition: border-color .3s ease-in-out, right 0.25s ease-out;
+  -webkit-transition: border-color .3s ease-in-out, right 0.25s ease-out;
+  background-color: rgba(0,0,0,0.7);
+  border-left: 2px solid #fff;
+  border-top: 2px solid #fff;
+  border-top-left-radius: 2px;
+  bottom: 0;
+  height: 160px;
+  position: fixed;
+  box-sizing: border-box;
+  right: -190px;
+  width: 190px;
+}
+#info-box:hover  {
+  border-color: #ff0054;
+}
+#info-box:hover #close-box, #close-box:hover  {
+  background-color: #ff0054;
+}
+#info-button  {
+  transition: border-color 0.3s ease-in-out, color .3s ease-in-out, right 0.35s ease-out;
+  -moz-transition: border-color 0.3s ease-in-out, color .3s ease-in-out, right 0.35s ease-out;
+  -webkit-transition: border-color 0.3s ease-in-out, color .3s ease-in-out, right 0.35s ease-out;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  background-color: black;
+  border-left: 2px solid rgba(255,255,255,0.5);
+  border-top: 2px solid rgba(255,255,255,0.5);
+  border-top-left-radius: 2px;
+  font-size: 22pt;
+  width: 50px;
+  bottom: 0; right: 0;
+  opacity: 0.7;
+  box-sizing: border-box;
+  text-align: center;
+  position: fixed;
+}
+
+#info-button:hover, a:hover  {
+  color: #ff0054;
+  border-color: #ff0054;
+}
+#word-container {
+  -moz-transition: border-color .3s ease-in-out;
+  -webkit-transition: border-color .3s ease-in-out;
+  transition: border-color .3s ease-in-out;
+  -moz-box-shadow: inset 0 0 10px rgba(0,0,0,0.6);
+  -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.6);
+  overflow: auto;
+  background-color: rgba(0,0,0,0.6);
+  border-left: 2px solid rgba(255,255,255,0.5);
+  border-right: 2px solid rgba(255,255,255,0.5);
+  border-top: 2px solid rgba(255,255,255,0.5);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.6);
+  top: 20%;
+  left: 0; right: 0;
+  position: absolute;
+  margin: 0 auto;
+  min-width: 300px;
+  box-sizing: border-box;
+  min-height: 300px;
+  height: 80%;
+  overflow-x: auto;
+  text-align: center;
+  width: 60%;
+}
+
+#anagrams {
+  position: absolute;
+  margin: 0 auto;
+  top: 24px;
+  left: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  line-height: 1.2;
+  width: 100%;
+  font-size: 24px;
+}
+
+#close-box  {
+  -moz-transition: background-color .3s ease-in-out;
+  -webkit-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out;
+  background-color: #fff;
+  cursor: pointer;
+  border-bottom-right-radius: 2px;
+  height: 20px;
+  left: -2px;
+  position: absolute;
+  top: -2px;
+  width: 20px;
+}
+#github-link  {
+  bottom: 5px;
+  font-size: 18pt;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  transition: color .3s ease-in-out;
+  -moz-transition: color .3s ease-in-out;
+  -webkit-transition: color .3s ease-in-out;
+}
+#github-link:hover  {
+  color: #ff0054;
+}
+#github-logo  {
+  cursor: pointer;
+  transition: background-image .3s ease-in-out;
+  -moz-transition: background-image .3s ease-in-out;
+  -webkit-transition: background-image .3s ease-in-out;
+  background-image: url(images/github.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 90px;
+  height: 65px;
+  left: 0;
+  position: relative;
+  right: 0;
+  top: 30px;
+  width: 68px;
+  margin: 0 auto;
+  padding: 10px;
+}
+#github-logo:hover  {
+  background-image: url(images/github_hover.png);
+}
+#input:hover, #word-container:hover  {
+  border-color: #ff0054;
+}
+::selection {
+	background: #ff0054;
+}
+::-webkit-selection {
+  background: #ff0054;
+}
+::-moz-selection {
+	background: #ff0054;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: color .3s ease-in-out;
+  -moz-transition: color .3s ease-in-out;
+  -webkit-transition: color .3s ease-in-out;
+}
+body  {
+  color: #fff;
+  background-image: url(images/background.png);
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-font-smoothing: subpixel-antialiased;
+  font-smoothing: subpixel-antialiased;
+  font-family: Helvetica Neue, Helvetica, "Lucidia Grande", Arial;
+  overflow: hidden;
+}
+
+html {
+  overflow:hidden;
+}
+
+hr  {
+  width: 20px;
+  opacity: 0.3;
+}
